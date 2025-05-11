@@ -41,7 +41,7 @@ if (gameToLoad) {
       const title = words.map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
 
       gamename.textContent = title;
-      gameframe.src = `./assets/fonts/${gameToLoad}`;
+      gameframe.src = `./public/assets/fonts/${gameToLoad}`;
 
       gameframe.style.display = 'none';
 
