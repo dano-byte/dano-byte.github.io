@@ -7,11 +7,11 @@ const gameToLoad = params.get('game');
 
 if (gameToLoad) {
   if (gameToLoad === 'little-alchemy-2') {
-    gameframe.src = 'https://littlealchemy2.com';
+    gameframe.src = 'https://google.com';
     gamename.textContent = 'Little Alchemy 2';
     gameimage.src = './assets/images/littlealchemy2.png';
   } else if (gameToLoad === 'flip-bros') {
-    gameframe.src = './assets/games/flip-bros/game.html';
+    gameframe.src = 'https://voice.google.com';
     gamename.textContent = 'Flip Bros';
     gameimage.src = './assets/images/flipbros.avif';
   } else if (gameToLoad === 'level-devil') {
